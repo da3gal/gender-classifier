@@ -1,0 +1,7 @@
+[build]
+  command = "pip install -r requirements.txt && python setup.py install && hugo"
+
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/main"
+  status = 200
