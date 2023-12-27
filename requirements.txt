@@ -9,5 +9,6 @@ pytorch_lightning==1.2.4
 tensorboard
 pytest
 uvloop
+gunicorn
 uvicorn
 classifier
