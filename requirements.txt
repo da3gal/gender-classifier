@@ -1,0 +1,13 @@
+--find-links https://download.pytorch.org/whl/torch_stable.html
+
+torch
+pandas
+fastapi
+numpy
+typing
+pytorch_lightning==1.2.4
+tensorboard
+pytest
+uvloop
+uvicorn
+classifier
