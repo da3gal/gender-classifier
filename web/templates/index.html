@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Grayscale - Start Bootstrap Theme</title>
+        <title>Gender Classifier</title>
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
@@ -28,7 +28,7 @@
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item"><a class="nav-link" href="#masthead">Main Page</a></li>
                         <li class="nav-item"><a class="nav-link" href="#projects">Project</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#signup">Try Me!</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#classify">Try Me!</a></li>
                     </ul>
                 </div>
             </div>
@@ -41,7 +41,7 @@
                         <h1 class="mx-auto my-0 text-uppercase">GENDER</h1>
 						<h1 class="mx-auto my-0 text-uppercase">CLASSIFIER</h1>
                         <h2 class="text-white-50 mx-auto mt-2 mb-5">A simple model to predict your gender without hesitation.</h2>
-                        <a class="btn btn-primary" href="#signup" id="getStartedBtn">Get Started</a>
+                        <a class="btn btn-primary" href="#classify" id="getStartedBtn">Get Started</a>
                     </div>
                 </div>
             </div>
@@ -64,7 +64,7 @@
             </div>
         </section>
         <!-- Predict Model-->
-        <section class="signup-section" id="signup">
+        <section class="classify-section" id="classify">
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5">
                     <div class="col-md-10 col-lg-8 mx-auto text-center">
@@ -139,7 +139,7 @@
             $(document).ready(function() {
                 $("#getStartedBtn").on("click", function(e) {
                     e.preventDefault();
-                    var targetSection = $("#signup");
+                    var targetSection = $("#classify");
                     $('html, body').animate({
                         scrollTop: targetSection.offset().top
                     }, 1000);
